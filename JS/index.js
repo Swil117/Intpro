@@ -34,7 +34,7 @@ $(document).ready(function () {
       {
        name: "central-click",
         options: {
-          text: "(See more detail)",
+          text: "(you know what....)",
           style: {
             "font-size": "12px",
             "font-style": "italic",
