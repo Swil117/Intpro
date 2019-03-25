@@ -52,7 +52,8 @@ stringdata8 = fetch('https://api.adviceslip.com/advice', {
 }).then(function(response){
   alert(response);
     });
-$(document).ready(function () {
+stringdata1.toString();
+var ready = $(document).ready(function () {
 
   var bubbleChart = new d3.svg.BubbleChart({
     supportResponsive: true,
@@ -70,7 +71,7 @@ $(document).ready(function () {
     data: {
       items: [
 
-       // {text: stringdata, count: ""},
+       {text: stringdata1.toLocaleString(), count: "11"},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
