@@ -10,6 +10,7 @@ fetch('https://api.adviceslip.com/advice')
         return response.json();
     })
     .then(function(myJson) {
+        var data = myJson;
         console.log(JSON.stringify(myJson));
     });
 fetch('https://api.adviceslip.com/advice')
@@ -61,3 +62,4 @@ fetch('https://api.adviceslip.com/advice')
     .then(function(myJson) {
         console.log(JSON.stringify(myJson));
     });
+

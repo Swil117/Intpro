@@ -1,5 +1,60 @@
 
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var  obj  = output(JSON.stringify) ;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
+fetch('https://api.adviceslip.com/advice')
+    .then((res) => res.json())
+    .then(output => {
+      var dataJson = output;
+      console.log(dataJson);
+    });
 $(document).ready(function () {
+
   var bubbleChart = new d3.svg.BubbleChart({
     supportResponsive: true,
     //container: => use @default
@@ -15,8 +70,8 @@ $(document).ready(function () {
 
     data: {
       items: [
-        {text: "Java", count: "236"},
-        {text: ".Net", count: "382"},
+
+        {text: "", count: ""},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
