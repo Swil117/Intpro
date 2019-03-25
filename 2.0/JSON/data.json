@@ -1,0 +1,10 @@
+//var request = new XMLHttpRequest();
+//var requestURL  ="http://github.com/adamcooke/vat-rates";
+
+
+//https://jsonvat.com/
+{
+rates:[{"name":"Spain","code":"ES","periods":[{"rates":{"standard":21.0}}]},
+{"name":"Bulgaria","code":"BG","periods":[{"rates":{"standard":20.0}}]},
+{"name":"Hungary","code":"HU","periods":[{"rates":{"standard":27.0}}]}
+}
