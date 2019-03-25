@@ -32,7 +32,7 @@ $(document).ready(function () {
     },
     plugins: [
       {
-      //  name: "central-click",
+       name: "central-click",
         options: {
           text: "(See more detail)",
           style: {
