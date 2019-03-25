@@ -1,6 +1,3 @@
-
-
-
 fetch('https://api.adviceslip.com/advice')
   .then(function(response) {
     return response.json();
