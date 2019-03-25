@@ -1,57 +1,74 @@
+let stringdata;
+stringdata = fetch('https://api.adviceslip.com/advice')
 
-fetch('https://api.adviceslip.com/advice')
     .then((res) => res.json())
     .then(output => {
-      var  obj  = output(JSON.stringify) ;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata1;
+stringdata1 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata2;
+stringdata2 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata3;
+stringdata3 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata4;
+stringdata4 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata5;
+stringdata5 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata6;
+stringdata6 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata7;
+stringdata7 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
-fetch('https://api.adviceslip.com/advice')
+let stringdata8;
+stringdata8 = fetch('https://api.adviceslip.com/advice')
+
     .then((res) => res.json())
     .then(output => {
-      var dataJson = output;
-      console.log(dataJson);
+      console.log(output);
+
     });
 $(document).ready(function () {
 
@@ -71,7 +88,7 @@ $(document).ready(function () {
     data: {
       items: [
 
-        {text: "", count: ""},
+       // {text: stringdata, count: ""},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
@@ -80,7 +97,7 @@ $(document).ready(function () {
         {text: "Pascal", count: "10"},
         {text: "Something", count: "170"},
 
-		
+
       ],
       eval: function (item) {return item.count;},
       classed: function (item) {return item.text.split(" ").join("");}
