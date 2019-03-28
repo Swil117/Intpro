@@ -5,12 +5,13 @@ stringdata = fetch('https://api.adviceslip.com/advice', {
   alert(response);
 });
 
-let stringdata1;
+let stringdata11;
 stringdata1 = fetch('https://api.adviceslip.com/advice', {
   method: 'get'
-}).then(function (response) {
+}).then( function (response) {
   console.log(response.text());
-  return JSON.stringify(response);
+  return response;
+
 });
 
 stringdata2 = fetch('https://api.adviceslip.com/advice', {
@@ -70,10 +71,21 @@ var ready = $(document).ready(function () {
     //intersectInc: use @default
     //circleColor: use @default
 
-    data: {
+
+
+    data: {let: dataset1 = fetch('https://api.adviceslip.com/advice', {
+        method: 'get'
+      }).then( function (response) {
+        //stringdata1 = response.text();
+        let stringdata1;
+        Promise.bind(response.text());
+        stringdata1 = response;
+        return stringdata1.toString();
+
+      }),
       items: [
 
-        {text: stringdata1.toString(), count: "11"},
+        {text: JSON.stringify(stringdata1), count: "11"},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
