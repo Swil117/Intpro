@@ -8,9 +8,9 @@ let stringdata1;
 stringdata1 = fetch('https://api.adviceslip.com/advice', {
   method: 'get'
 }).then(function(response){
-  alert(response);
-    });
-let stringdata2;
+  return response.json();
+});
+
 stringdata2 = fetch('https://api.adviceslip.com/advice', {
   method: 'get'
 }).then(function(response){
@@ -50,8 +50,9 @@ let stringdata8;
 stringdata8 = fetch('https://api.adviceslip.com/advice', {
   method: 'get'
 }).then(function(response){
-  alert(response);
+ // alert(response);
     });
+
 stringdata1.toString();
 var ready = $(document).ready(function () {
 
@@ -71,7 +72,7 @@ var ready = $(document).ready(function () {
     data: {
       items: [
 
-       {text: stringdata1.toLocaleString(), count: "11"},
+       {text: stringdata1.toString(), count: "11"},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
