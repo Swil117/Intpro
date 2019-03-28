@@ -4,11 +4,13 @@ stringdata = fetch('https://api.adviceslip.com/advice', {
 }).then(function(response){
   alert(response);
 });
+
 let stringdata1;
 stringdata1 = fetch('https://api.adviceslip.com/advice', {
   method: 'get'
-}).then(function(response){
-  return response.json();
+}).then(function (response) {
+  console.log(response.text());
+  return JSON.stringify(response);
 });
 
 stringdata2 = fetch('https://api.adviceslip.com/advice', {
@@ -53,7 +55,6 @@ stringdata8 = fetch('https://api.adviceslip.com/advice', {
  // alert(response);
     });
 
-stringdata1.toString();
 var ready = $(document).ready(function () {
 
   var bubbleChart = new d3.svg.BubbleChart({
@@ -72,7 +73,7 @@ var ready = $(document).ready(function () {
     data: {
       items: [
 
-       {text: stringdata1.toString(), count: "11"},
+        {text: stringdata1.toString(), count: "11"},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
