@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+            <state relative-caret-position="483">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -150,7 +150,9 @@
       <workItem from="1553533788160" duration="12523000" />
       <workItem from="1553679452475" duration="1263000" />
       <workItem from="1553681231043" duration="632000" />
-      <workItem from="1553772582476" duration="11218000" />
+      <workItem from="1553772582476" duration="11582000" />
+      <workItem from="1553813923986" duration="733000" />
+      <workItem from="1553814828815" duration="1897000" />
     </task>
     <task id="LOCAL-00001" summary="tryign to fix">
       <created>1553533880542</created>
@@ -208,11 +210,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553780418384</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="passing something but not the right thing. still progress">
+      <created>1553784006981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553784006982</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29589000" />
+    <option name="totallyTimeSpent" value="32583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,7 +239,6 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1780822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -242,6 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32550693" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977587" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32977587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,7 +317,8 @@
     <MESSAGE value="trying to stringify" />
     <MESSAGE value="fixed fetch for stringdata 1 to 8" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="passing something but not the right thing. still progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="passing something but not the right thing. still progress" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HTML/bubble.html">
@@ -334,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        <state relative-caret-position="483">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

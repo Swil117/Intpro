@@ -1,64 +1,18 @@
-let stringdata;
-stringdata = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-});
+let str;
+const ready = $(document).ready(function () {
+	$.ajax({
+		type: "GET",
+		url: "https://api.adviceslip.com/advice",
+		dataType: "json",
+		success: function(data){
+		  var str = JSON.stringify(data);
+		  alert(str);
+		}
+	});
 
-let stringdata11;
-stringdata1 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then( function (response) {
-  console.log(response.text());
-  return response;
 
-});
-
-stringdata2 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-    });
-let stringdata3;
-stringdata3 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-    });
-let stringdata4;
-stringdata4 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-    });
-let stringdata5;
-stringdata5 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-    });
-let stringdata6;
-stringdata6 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-    });
-let stringdata7;
-stringdata7 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
-  alert(response);
-    });
-let stringdata8;
-stringdata8 = fetch('https://api.adviceslip.com/advice', {
-  method: 'get'
-}).then(function(response){
- // alert(response);
-    });
-
-var ready = $(document).ready(function () {
-
-  var bubbleChart = new d3.svg.BubbleChart({
+  var bubbleChart;
+  bubbleChart = new d3.svg.BubbleChart({
     supportResponsive: true,
     //container: => use @default
     size: 600,
@@ -71,21 +25,22 @@ var ready = $(document).ready(function () {
     //intersectInc: use @default
     //circleColor: use @default
 
-
-
-    data: {let: dataset1 = fetch('https://api.adviceslip.com/advice', {
-        method: 'get'
-      }).then( function (response) {
-        //stringdata1 = response.text();
-        let stringdata1;
-        Promise.bind(response.text());
-        stringdata1 = response;
-        return stringdata1.toString();
-
+    data: {
+      let: str1 = $.ajax({
+        type: "GET",
+        url: "https://api.adviceslip.com/advice",
+        dataType: "json",
+        success: function (data1) {
+         // JSON.parse(data1);
+          str = JSON.stringify(data1);
+          alert(str);
+        // return str;
+        }
       }),
+
       items: [
 
-        {text: JSON.stringify(stringdata1), count: "11"},
+        {text: str + " ", count: "11"},
         {text: "Php", count: "170"},
         {text: "Ruby", count: "123"},
         {text: "D", count: "12"},
@@ -96,12 +51,16 @@ var ready = $(document).ready(function () {
 
 
       ],
-      eval: function (item) {return item.count;},
-      classed: function (item) {return item.text.split(" ").join("");}
+      eval: function (item) {
+        return item.count;
+      },
+      classed: function (item) {
+        return item.text.split(" ").join("");
+      }
     },
     plugins: [
       {
-       name: "central-click",
+        name: "central-click",
         options: {
           text: "(you know what....)",
           style: {
@@ -113,7 +72,7 @@ var ready = $(document).ready(function () {
             "fill": "white"
           },
           attr: {dy: "65px"},
-          centralClick: function() {
+          centralClick: function () {
             alert("Some good advice, right?");
           }
         }
@@ -133,8 +92,12 @@ var ready = $(document).ready(function () {
               },
               attr: {
                 dy: "0px",
-                x: function (d) {return d.cx;},
-                y: function (d) {return d.cy;}
+                x: function (d) {
+                  return d.cx;
+                },
+                y: function (d) {
+                  return d.cy;
+                }
               }
             },
             {// Line #1
@@ -148,8 +111,12 @@ var ready = $(document).ready(function () {
               },
               attr: {
                 dy: "20px",
-                x: function (d) {return d.cx;},
-                y: function (d) {return d.cy;}
+                x: function (d) {
+                  return d.cx;
+                },
+                y: function (d) {
+                  return d.cy;
+                }
               }
             }
           ],
@@ -166,4 +133,5 @@ var ready = $(document).ready(function () {
         }
       }]
   });
+  //alert(dataset1);
 });
