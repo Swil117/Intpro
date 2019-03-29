@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="322">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -152,7 +152,7 @@
       <workItem from="1553681231043" duration="632000" />
       <workItem from="1553772582476" duration="11582000" />
       <workItem from="1553813923986" duration="733000" />
-      <workItem from="1553814828815" duration="1897000" />
+      <workItem from="1553814828815" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="tryign to fix">
       <created>1553533880542</created>
@@ -217,11 +217,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553784006982</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changed to ajax">
+      <created>1553816737443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553816737443</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32583000" />
+    <option name="totallyTimeSpent" value="33243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,7 +325,8 @@
     <MESSAGE value="fixed fetch for stringdata 1 to 8" />
     <MESSAGE value="update" />
     <MESSAGE value="passing something but not the right thing. still progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="passing something but not the right thing. still progress" />
+    <MESSAGE value="changed to ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed to ajax" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HTML/bubble.html">
@@ -344,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="322">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
         </state>
       </provider>
     </entry>

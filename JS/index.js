@@ -26,7 +26,7 @@ const ready = $(document).ready(function () {
     //circleColor: use @default
 
     data: {
-      let: str1 = $.ajax({
+      var: str1 = $.ajax({
         type: "GET",
         url: "https://api.adviceslip.com/advice",
         dataType: "json",
